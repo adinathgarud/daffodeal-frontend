@@ -175,11 +175,12 @@ const Header = ({ activeHeading }) => {
               <div className="relative cursor-pointer mx-[15px]">
                 {isAuthenticated ? (
                   <Link to="/profile">
-                    <img
+                    {/* <img
                       src={`${user?.avatar?.url}`}
                       className="w-[40px] h-[40px] rounded-full "
                       alt=""
-                    />
+                    /> */}
+                    <CgProfile size={35} className="text-gray-600 hover:text-black transition duration-200" />
                   </Link>
                 ) : (
                   <Link to="/login">
@@ -300,11 +301,12 @@ const Header = ({ activeHeading }) => {
                 {isAuthenticated ? (
                   <div>
                     <Link to="/profile">
-                      <img
-                        src={`${user.avatar?.url}`}
+                      {/* <img
+                        src={``}
                         alt=""
                         className="w-[60px] h-[60px] rounded-full border-[3px] border-[#0eae88]"
-                      />
+                      /> */}
+                      <CgProfile size={35} className="text-gray-600 hover:text-black transition duration-200" />
                     </Link>
                   </div>
                 ) : (

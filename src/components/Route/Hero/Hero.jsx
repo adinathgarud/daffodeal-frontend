@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css"; // Import default theme styles
 const Hero = () => {
   const sliderData = [
     {
-      img: "https://themes.rslahmed.dev/rafcart/assets/images/banner-2.jpg",
+      img: "https://themes.rslahmed.dev/rafcart/assets/images/banner-1.jpg",
       title: "Elegant Jewelry",
       description: "A fine collection of jewelry designed to complement your elegance.",
     },
@@ -17,7 +17,7 @@ const Hero = () => {
       description: "Transform your living space with stunning home décor pieces.",
     },
     {
-      img: "https://themes.rslahmed.dev/rafcart/assets/images/banner-2.jpg",
+      img: "https://themes.rslahmed.dev/rafcart/assets/images/banner-3.jpg",
       title: "Luxury & Style",
       description: "Indulge in luxury with our exclusive products that redefine style.",
     },
